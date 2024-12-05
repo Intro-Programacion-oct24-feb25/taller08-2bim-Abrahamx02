@@ -10,7 +10,22 @@ package paquete04;
  */
 public class Ejemplo03 {
         public static void main(String[] args) {
-            for ( int i = 0; i<=10;)
+            
+            for ( int i = 0; i<=5;i++){
+                
+              for (int contador = 1 ; contador<=i ; contador ++){
+                  System.out.printf("%s", "*");
+                  
+              }
+               System.out.println();
+            }
+            for (int i =5; i>=1;i--){
+                for (int contador = 1 ; contador<+i ; contador ++){
+                    System.out.printf("%s", "*");
+                }
+                 System.out.println();
+            }
+            
         }
         
 }
